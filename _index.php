@@ -1,0 +1,546 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta name="description" content="Sula Films - Casa productora">
+<link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16" />
+<title>SULA FILMS - Casa productora audiovisual</title>
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700%7cRoboto:400,500,700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">    
+<link rel="stylesheet" href="assets/css/libraries.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/estilos.css" />
+
+</head>
+
+<body>
+<div class="wrapper">
+<!-- =========================
+Header 
+=========================== -->
+<header class="header header-transparent">
+<nav class="navbar navbar-expand-lg">
+<a class="navbar-brand" href="index.html">
+<img src="assets/images/sula-logo-white.png" class="logo-light milogo" alt="logo">
+<img src="assets/images/sula-logo-white.png" class="logo-dark milogo" alt="logo">
+</a>
+<div class="container">
+
+<button class="navbar-toggler" type="button">
+<span class="menu-lines"><span></span></span>
+</button>
+<div class="collapse navbar-collapse" id="mainNavigation">
+<ul class="navbar-nav mr-auto ml-auto">
+<li class="nav__item">
+<a href="index.html" class="nav__item-link">Inicio</a>
+</li><!-- /.nav-item -->
+<li class="nav__item">
+<a href="nosotros.html" class=" nav__item-link">Nosotros</a>
+</li><!-- /.nav-item -->
+<li class="nav__item">
+<a href="servicios.html" class=" nav__item-link">Servicios</a>
+</li><!-- /.nav-item -->
+<li class="nav__item with-dropdown">
+<a href="filmografia.html" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Producciones</a>    
+    <ul class="dropdown-menu">
+      <li class="nav__item">
+        <a href="filmografia.html" class="nav__item-link">Film</a>
+      </li><!-- /.nav-item -->
+      <li class="nav__item">
+        <a href="tv.html" class="nav__item-link">TV</a>
+      </li><!-- /.nav-item -->
+      <li class="nav__item">
+        <a href="contenido_alternativo.html" class="nav__item-link">Contenido alternativo</a>
+      </li><!-- /.nav-item -->
+    </ul><!-- /.dropdown-menu -->
+</li><!-- /.nav-item -->
+<li class="nav__item">
+<a href="noticias.html" class="nav__item-link">Noticias</a>
+</li><!-- /.nav-item -->
+<li class="nav__item">
+<a href="sula_edu.html" class="nav__item-link">Sula Edu</a>
+</li><!-- /.nav-item -->    
+<li class="nav__item">
+<a href="contacto.html" class="nav__item-link">Contacto</a>
+</li><!-- /.nav-item -->
+<li class="nav__item">
+<a href="tienda.html" class="nav__item-link">Tienda</a>
+</li><!-- /.nav-item -->    
+</ul><!-- /.navbar-nav -->
+</div><!-- /.navbar-collapse -->
+<ul class="social__icons_h" style="list-style: none;">
+    <li><a href="https://www.facebook.com/sulafilmsoficial"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://www.instagram.com/sulafilms/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://twitter.com/Sulafilms" target="_blank"><i class="fa fa-twitter"></i></a></li>
+</ul><!-- /.social-icons -->    
+</div><!-- /.container -->
+</nav><!-- /.navabr -->
+
+</header><!-- /.Header -->
+
+<!-- ============================
+Slider
+============================== -->
+<section class="slider slider-centerd">
+<div class="carousel owl-carousel carousel-arrows carousel-dots carousel-dots-light" data-slide="1"
+data-slide-md="1" data-slide-sm="1" data-autoplay="true" data-nav="true" data-dots="true" data-space="0"
+data-loop="true" data-speed="3000" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
+<div class="slide-item bg-overlay">
+<div class="bg-img"><img src="assets/images/banners/menendez.jpg" alt="slide img"></div>
+<div class="container">
+    
+<div class="row">
+    
+<div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+<div class="slide__content">
+<span class="slide__subtitle">Disponible en</span>
+<img src="assets/images/logo/netflix.png" alt="Netflix" class="logos_plataformas">    
+<h2 class="slide__title">Menéndez parte 1</h2>
+<p class="slide__subtitle">El día del Señor</p>
+<a class="video__btn mx-3" href="https://www.netflix.com/mx/title/81281882" target="_blank">
+<div class="video__player">
+<span class="video__player-animation"></span>
+<span class="video__player-animation video__player-animation-2"></span>
+<i class="fa fa-play"></i>
+</div>
+</a>
+<br><br>
+<a href="menendez.html" class="btn btn__primary">
+<span>Ver Ficha</span>
+</a>
+</div><!-- /.slide-content -->
+</div><!-- /.col-lg-10 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</div><!-- /.slide-item -->
+<div class="slide-item bg-overlay">
+<div class="bg-img"><img src="assets/images/banners/los_jefes.jpg" alt="slide img"></div>
+<div class="container">
+    
+<div class="row">
+
+<div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+<div class="slide__content">
+<span class="slide__subtitle">Disponible en</span>
+<img src="assets/images/logo/yt_logo_rgb_dark.png" alt="Youtube" class="logos_plataformas">    
+<h2 class="slide__title">Los Jefes</h2>
+    
+<a class="video__btn mx-3" href="https://youtu.be/OIO5jqu-rrM" target="_blank">
+<div class="video__player">
+<span class="video__player-animation"></span>
+<span class="video__player-animation video__player-animation-2"></span>
+<i class="fa fa-play"></i>
+</div>
+</a>
+<br><br>
+<a href="los-jefes.html" class="btn btn__primary">
+<span>Ver Ficha</span>
+</a>    
+</div><!-- /.slide-content -->
+</div><!-- /.col-lg-10 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</div><!-- /.slide-item -->
+    
+<div class="slide-item bg-overlay">
+<div class="bg-img"><img src="assets/images/banners/casi_treinta.jpg" alt="slide img"></div>
+<div class="container">
+    
+<div class="row">
+
+<div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+<div class="slide__content">
+<span class="slide__subtitle">Disponible en</span>
+<img src="assets/images/logo/foxplay.png" alt="Fox play" class="logos_plataformas_4">
+<img src="assets/images/logo/filminlatino.png" alt="Fox play" class="logos_plataformas_5">    
+<h2 class="slide__title">Casi 30</h2>
+    
+<a class="video__btn mx-3" href="https://www.foxplay.com/es-mx/movies-and-specials/casi-30" target="_blank">
+<div class="video__player">
+<span class="video__player-animation"></span>
+<span class="video__player-animation video__player-animation-2"></span>
+<i class="fa fa-play"></i>
+</div>
+</a>
+<br><br>
+<a href="casi_treinta.html" class="btn btn__primary">
+<span>Ver Ficha</span>
+</a>    
+</div><!-- /.slide-content -->
+</div><!-- /.col-lg-10 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</div><!-- /.slide-item -->    
+
+<div class="slide-item bg-overlay">
+<div class="bg-img"><img src="assets/images/banners/prometonoenamorarme.jpg" alt="slide img"></div>
+<div class="container">
+    
+<div class="row">
+
+<div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+<div class="slide__content">
+<span class="slide__subtitle">Disponible en</span>
+<img src="assets/images/logo/prime_video_n.png" alt="Prime Video" class="logos_plataformas_2">
+<img src="assets/images/logo/cinepolis-klic.png" alt="Cinepolis Click" class="logos_plataformas_3">     
+<h2 class="slide__title">Prometo no enamorarme</h2>
+    
+<a class="video__btn mx-3" href="https://www.primevideo.com/gp/video/detail/Prometo-no-Enamorarme/0HSVNB5B5FY23OWNM849UT014L/ref=atv_nb_lcl_ta_IN?language=es_ES&ie=UTF8" target="_blank">
+<div class="video__player">
+<span class="video__player-animation"></span>
+<span class="video__player-animation video__player-animation-2"></span>
+<i class="fa fa-play"></i>
+</div>
+</a>
+<br><br>
+<a href="prometo-no-enamorarme.html" class="btn btn__primary">
+<span>Ver Ficha</span>
+</a>    
+</div><!-- /.slide-content -->
+</div><!-- /.col-lg-10 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</div><!-- /.slide-item --> 
+
+    
+<div class="slide-item bg-overlay">
+<div class="bg-img"><img src="assets/images/banners/en_la_sangre.png" alt="slide En la Sangre"></div>
+<div class="container">
+    
+<div class="row">
+
+<div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+<div class="slide__content">
+<span class="slide__subtitle">Disponible en</span>
+<img src="assets/images/logo/foxplay.png" alt="Fox play" class="logos_plataformas_4">
+<img src="assets/images/logo/filminlatino.png" alt="Fox play" class="logos_plataformas_5">
+<h2 class="slide__title">En la sangre</h2>
+    
+<a class="video__btn mx-3" href="https://www.foxplay.com/es-mx/movies-and-specials/en-la-sangre" target="_blank">
+<div class="video__player">
+<span class="video__player-animation"></span>
+<span class="video__player-animation video__player-animation-2"></span>
+<i class="fa fa-play"></i>
+</div>
+</a>
+<br><br>
+<a href="en-la-sangre.html" class="btn btn__primary">
+<span>Ver Ficha</span>
+</a>    
+</div><!-- /.slide-content -->
+</div><!-- /.col-lg-10 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</div><!-- /.slide-item --> 
+    
+</div><!-- /.carousel -->
+</section><!-- /.slider -->
+
+<!-- ==========================
+fancybox layout 5
+=========================== -->
+<section class="fancybox-layout5 arbol pb-60">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+<div class="heading text-center mb-60">
+<h2 class="heading__title mb-60">SOMOS SULA FILMS</h2>
+<p style="font-size: 18px; font-weight:200; text-align: justify; line-height: 32px;">Somos una casa productora audiovisual con más de 11 años de experiencia en el mercado, estamos dedicados a producir contenidos audiovisuales de calidad con valores universales.<br> Historias únicas comerciables concebidas bajo una visión autoral.</p>
+</div><!-- /.heading -->
+</div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</section><!-- /. fancybox layout 5 -->
+<!-- ================================
+
+<!-- ==========================
+fancybox layout 5
+=========================== -->
+<section class="team-layout1 text-center pb-30 mt-0 arbol3">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+<div class="heading mb-60">
+<h2 class="heading__title">AFILIACIONES</h2>
+</div><!-- /.heading -->
+</div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+<div class="row">
+<!-- Member #1 -->
+
+<div class="col-sm-12 col-md-12 col-lg-4">
+<a href="https://internationalquorum.com" target="_blank">
+<img src="assets/images/logo/IQ_logo.png" alt="" class="log-movil"/>
+<p style="margin-top: 20px;">IQ International Quorum of Motion Picture Producers</p>
+</a>
+</div><!-- /.col-lg-4 -->
+
+    
+    
+<!-- Member #2 -->
+<div class="col-sm-12 col-md-12 col-lg-4">
+<a href="http://canacine.org.mx" target="_blank">
+<img src="assets/images/logo/canacine_logo.png" alt="" class="log-movil"/>
+<p style="margin-top: 20px;">Cámara nacional de la industria cinematográfica</p>
+</a>
+</div><!-- /.col-lg-4 -->
+<!-- Member #3 -->
+<div class="col-sm-12 col-md-12 col-lg-4">
+<a href="https://www.nalip.org" target="_blank">
+<img src="assets/images/logo/NALIP_logo.png" alt="" class="log-movil"/>
+<p style="margin-top: 20px;">National Association of Latino Independent Producers</p>
+</a>
+</div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+
+    
+<div class="row mt-120">
+<div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+<div class="heading mb-60">
+<h2 class="heading__title">RECONOCIMIENTOS</h2>
+</div><!-- /.heading -->
+</div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+    
+    
+<div class="row">
+<!-- Member #2 -->
+
+<div class="col-sm-12 col-md-12 col-lg-4">
+<div class="fancybox-item">
+<div class="fancybox__icon">
+<img src="assets/images/icons/ariel.png" alt="icon">
+</div><!-- /.fancybox-icon -->
+<div class="fancybox__content">
+<h4 class="fancybox__title">ARIEL (AAMAC)</h4>
+<span>3 Nominaciones</span>
+</div><!-- /.fancybox-content -->
+</div><!-- /.fancybox-item -->
+</div><!-- /.col-lg-4 -->
+   
+<!-- Member #2 -->
+<div class="col-sm-12 col-md-12 col-lg-4">
+<div class="fancybox-item">
+<div class="fancybox__icon">
+<img src="assets/images/icons/diosadeplata.png" alt="icon">
+</div><!-- /.fancybox-icon -->
+<div class="fancybox__content">
+<h4 class="fancybox__title">DIOSA DE PLATA (PECIME)</h4>
+<span>8 Nominaciones</span>
+</div><!-- /.fancybox-content -->
+</div><!-- /.fancybox-item -->
+</div><!-- /.col-lg-4 -->
+<!-- Member #3 -->
+<div class="col-sm-12 col-md-12 col-lg-4">
+<div class="fancybox-item ultimo">
+<div class="fancybox__icon">
+<img src="assets/images/icons/luminus.png" alt="icon">
+</div><!-- /.fancybox-icon -->
+<div class="fancybox__content">
+<h4 class="fancybox__title">PREMIOS LUMINUS (CANACINE)</h4>
+<span>5 Nominaciones</span>
+</div><!-- /.fancybox-content -->
+</div><!-- /.fancybox-item -->
+</div><!-- /.col-lg-4 -->
+</div><!-- /.row -->    
+</div><!-- /.container -->
+</section><!-- /.team1  -->
+    
+    
+
+    
+<!-- ========================
+shop 
+=========================== -->
+<section class="shop-grid text-center arbol">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="heading mb-60">
+<h2 class="heading__title">NUESTRO EQUIPO</h2>
+</div><!-- /.heading -->
+</div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+<div class="row">
+
+<!-- Swiper -->
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+    <div class="product-item">
+        <div class="product__img">
+            <img src="assets/images/team/Alejandro_Sugich.jpg" alt="Product">
+        </div><!-- /.product-img -->
+        <div class="product__content">
+            <h4>Alejandro Sugich</h4>
+            <span class="product__price">CEO / Founder / Producer / Director</span>
+        </div><!-- /.product-content -->
+    </div><!-- /.product-item -->
+</div>
+<div class="swiper-slide">
+    <div class="product-item">
+        <div class="product__img">
+            <img src="assets/images/team/Beatriz-Herrera_v2.png" alt="Product">
+        </div><!-- /.product-img -->
+        <div class="product__content">
+            <h4>Beatriz E. Herrera B.</h4>
+            <span class="product__price">Productora Ejecutiva / Socia</span>
+        </div><!-- /.product-content -->
+    </div><!-- /.product-item -->
+</div>
+<div class="swiper-slide">
+    <div class="product-item">
+        <div class="product__img">
+            <img src="assets/images/team/Julieta-Perales.jpg" alt="Product">
+        </div><!-- /.product-img -->
+        <div class="product__content">
+            <h4>Julieta Perales</h4>
+            <span class="product__price">COO/ Productora ejecutiva</span>
+        </div><!-- /.product-content -->
+    </div><!-- /.product-item -->
+</div>    
+<div class="swiper-slide">
+    <div class="product-item">
+        <div class="product__img">
+            <img src="assets/images/team/Edgar-Leon.jpg" alt="Product">
+        </div><!-- /.product-img -->
+        <div class="product__content">
+            <h4>Edgar León</h4>
+            <span class="product__price">Gerente de Proyectos / Producción en Línea</span>
+        </div><!-- /.product-content -->
+    </div><!-- /.product-item -->
+</div>
+<div class="swiper-slide">
+    <div class="product-item">
+        <div class="product__img">
+            <img src="assets/images/team/Sergio-Flores.jpg" alt="Product">
+        </div><!-- /.product-img -->
+        <div class="product__content">
+            <h4>Sergio Flores</h4>
+            <span class="product__price">Gerente de Postproducción / Rental Manager</span>
+        </div><!-- /.product-content -->
+    </div><!-- /.product-item -->
+</div>
+<div class="swiper-slide">
+    <div class="product-item">
+        <div class="product__img">
+            <img src="assets/images/team/Jorge-Carvajal.jpg" alt="Product">
+        </div><!-- /.product-img -->
+        <div class="product__content">
+            <h4>Jorge Carvajal</h4>
+            <span class="product__price">Supervisor de Contenido, Editor y Director Jr</span>
+        </div><!-- /.product-content -->
+    </div><!-- /.product-item -->
+</div>
+
+</div>
+
+<!-- Add Arrows -->
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+
+</div><!-- /.row -->
+
+</div><!-- /.container -->
+</section><!-- /.shop -->
+
+    
+
+
+
+
+<!-- ========================
+Footer
+========================== -->
+<footer class="footer">
+
+<div class="footer-bottom">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12 text-center">
+<img src="assets/images/sula-logo-arbol.png" alt="Arbol sula icono">
+<div class="footer__copyright">
+<p class="fz-13 mb-20 color-white">Copyright © Sula Films.
+<a href="aviso-privacidad.html" target="_blank">Aviso de Privacidad</a>
+</p>
+<ul class="social__icons">
+    <li><a href="https://www.facebook.com/sulafilmsoficial" target="_blank"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://www.instagram.com/sulafilms/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://twitter.com/Sulafilms" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+</ul><!-- /.social-icons -->    
+</div><!-- /.Footer-copyright -->
+    
+</div><!-- /.col-lg-9 -->
+
+    
+</div><!-- /.row -->
+</div><!-- /.container -->
+</div><!-- /.Footer-bottom -->
+</footer><!-- /.Footer -->
+<button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
+
+</div><!-- /.wrapper -->
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.js"></script>
+    
+<!-- Initialize Swiper -->
+  <script>
+      if(window.innerWidth <= 991){
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+        autoplay: {
+        delay: 8000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+          }else{
+             var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+                 autoplay: {
+        delay: 8000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    }); 
+          }
+  </script>   
+</body>
+
+</html>
