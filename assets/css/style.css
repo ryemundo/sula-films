@@ -606,7 +606,7 @@ select {
 @media (min-width: 768px) and (max-width: 1200px) {
     
   .milogo{
-        width: 80% !important;
+        /*width: 80% !important;*/
     }
     
     .navbar .navbar-toggler {
@@ -2474,6 +2474,7 @@ textarea.form-control {
   max-height: 100px;
   background-color: #000;
   border-bottom: 1px solid #ededed;
+  position: relative;
   /*  dropdown-menu  */
 }
 
@@ -2484,10 +2485,12 @@ textarea.form-control {
 }
 
 .navbar .navbar-brand {
-  padding: 0;
+  padding: 16px 0;
   margin: 0;
   line-height: 100px;
   padding-left: 3%;
+  display: flex;
+  height: 100%;
 }
 
 .navbar .logo-light {
