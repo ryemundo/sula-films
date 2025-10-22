@@ -134,7 +134,11 @@
           <p class="contact-panel__desc">
             ¿Quieres hacer un proyecto con nosotros?
           </p>
-          <form>
+          <form
+            id="my-form"
+            action="https://formspree.io/f/mldpywkz"
+            method="POST"
+          >
             <div class="row">
               <div class="col-sm-6 col-md-6 col-lg-6">
                 <div class="form-group">
@@ -142,6 +146,7 @@
                     type="text"
                     class="form-control"
                     placeholder="Nombre"
+                    name="name"
                   />
                 </div>
               </div>
@@ -152,6 +157,7 @@
                     type="email"
                     class="form-control"
                     placeholder="Email"
+                    name="email"
                   />
                 </div>
               </div>
@@ -161,18 +167,24 @@
                   <textarea
                     class="form-control"
                     placeholder="Mensaje"
+                    name="message"
                   ></textarea>
                 </div>
               </div>
               <!-- /.col-lg-12 -->
               <div class="col-sm-12 col-md-12 col-lg-12">
-                <button type="submit" class="btn btn__primary">
+                <button
+                  type="submit"
+                  class="btn btn__primary"
+                  id="my-form-button"
+                >
                   <span>Enviar</span>
                 </button>
               </div>
               <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
+            <p id="my-form-status"></p>
           </form>
           <br />
           <div class="contact-box__content">
@@ -250,5 +262,43 @@
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      var form = document.getElementById("my-form");
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: "application/json",
+          },
+        })
+          .then((response) => {
+            if (response.ok) {
+              status.innerHTML = "¡Gracias por tu mensaje!";
+              form.reset();
+            } else {
+              response.json().then((data) => {
+                if (Object.hasOwn(data, "errors")) {
+                  status.innerHTML = data["errors"]
+                    .map((error) => error["message"])
+                    .join(", ");
+                } else {
+                  status.innerHTML =
+                    "Parece que hay un problema para enviar tu mensaje, por favor vuelve a intentarlo.";
+                }
+              });
+            }
+          })
+          .catch((error) => {
+            status.innerHTML =
+              "Parece que hay un problema para enviar tu mensaje, por favor vuelve a intentarlo.";
+          });
+      }
+      form.addEventListener("submit", handleSubmit);
+    </script>
   </body>
 </html>
