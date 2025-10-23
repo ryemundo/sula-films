@@ -3378,6 +3378,12 @@ textarea.form-control {
     padding: 0 1em;
   }
 
+  .language-change {
+    padding: 0 1em;
+    position: relative;
+    top: 0.5em;
+  }
+
   .navbar .navbar-toggler {
     position: absolute;
     right: 15px;
@@ -3605,6 +3611,14 @@ textarea.form-control {
 .language-change {
   color: white !important;
 }
+.language-change:hover {
+  text-decoration: underline;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 /* Medium and large Screens */
 @media only screen and (min-width: 992px) {
   .navbar .dropdown-menu {
