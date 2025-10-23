@@ -8,13 +8,13 @@
     <link
       rel="icon"
       type="image/png"
-      href="assets/images/favicon/favicon-32x32.png"
+      href="../assets/images/favicon/favicon-32x32.png"
       sizes="32x32"
     />
     <link
       rel="icon"
       type="image/png"
-      href="assets/images/favicon/favicon-16x16.png"
+      href="../assets/images/favicon/favicon-16x16.png"
       sizes="16x16"
     />
     <title>SULA FILMS - Servicios</title>
@@ -22,8 +22,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700%7cRoboto:400,500,700&display=swap"
     />
-    <link rel="stylesheet" href="assets/css/libraries.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/libraries.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <script
       src="https://kit.fontawesome.com/a076f1c109.js"
       crossorigin="anonymous"
@@ -38,12 +38,12 @@
           <!--Branding-->
           <a class="navbar-brand" href="index.html">
             <img
-              src="assets/images/sula-logo-white.svg"
+              src="../assets/images/sula-logo-white.svg"
               class="logo-light milogo"
               alt="logo"
             />
             <img
-              src="assets/images/sula-logo-white.svg"
+              src="../assets/images/sula-logo-white.svg"
               class="logo-dark milogo"
               alt="logo"
             />
@@ -113,6 +113,9 @@
                 </ul>
                 <!-- /.social-icons -->
               </ul>
+              <a class="language-change" href="../contacto.html"
+                >ES / <span class="underline">EN</span></a
+              >
               <!-- /.navbar-nav -->
             </div>
             <!-- /.navbar-collapse -->
@@ -130,9 +133,9 @@
         class="contact-layout2 bg-theme text-center arbol-contacto d-flex align-items-center justify-content-center"
       >
         <div class="contact-panel blck">
-          <h5 class="contact-panel__title">Escríbenos</h5>
+          <h5 class="contact-panel__title">Contact Us</h5>
           <p class="contact-panel__desc">
-            ¿Quieres hacer un proyecto con nosotros?
+            ¿Would you like to work on a project with us?
           </p>
           <form
             id="my-form"
@@ -145,7 +148,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Nombre"
+                    placeholder="Name"
                     name="name"
                   />
                 </div>
@@ -166,7 +169,7 @@
                 <div class="form-group mb-30">
                   <textarea
                     class="form-control"
-                    placeholder="Mensaje"
+                    placeholder="Message"
                     name="message"
                   ></textarea>
                 </div>
@@ -178,7 +181,7 @@
                   class="btn btn__primary"
                   id="my-form-button"
                 >
-                  <span>Enviar</span>
+                  <span>Submit</span>
                 </button>
               </div>
               <!-- /.col-lg-12 -->
@@ -188,10 +191,10 @@
           </form>
           <br />
           <div class="contact-box__content">
-            <h4 class="contact-box__title" style="color: #fff">México</h4>
+            <h4 class="contact-box__title" style="color: #fff">Mexico</h4>
             <ul class="contact-box__list list-unstyled mb-0">
               <li>Condesa CDMX</li>
-              <li>Tel.: 55 5286 6144</li>
+              <li>Phone: 55 5286 6144</li>
             </ul>
           </div>
         </div>
@@ -208,7 +211,7 @@
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                 <img
-                  src="assets/images/sula-logo-arbol.png"
+                  src="../assets/images/sula-logo-arbol.png"
                   alt="Arbol sula icono"
                 />
                 <div class="footer__copyright">
@@ -219,7 +222,7 @@
                     >
                   </p>
                   <p>
-                    <a href="aviso-privacidad.html">Aviso de Privacidad</a>
+                    <a href="aviso-privacidad.html">Privacy Notice</a>
                   </p>
                   <ul class="social__icons">
                     <li>
@@ -259,9 +262,9 @@
     </div>
     <!-- /.wrapper -->
 
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/main.js"></script>
     <script>
       var form = document.getElementById("my-form");
 
@@ -278,7 +281,7 @@
         })
           .then((response) => {
             if (response.ok) {
-              status.innerHTML = "¡Gracias por tu mensaje!";
+              status.innerHTML = "¡Thanks for your message!";
               form.reset();
             } else {
               response.json().then((data) => {
@@ -288,14 +291,14 @@
                     .join(", ");
                 } else {
                   status.innerHTML =
-                    "Parece que hay un problema para enviar tu mensaje, por favor vuelve a intentarlo.";
+                    "There seems to be a problem sending your message, please try again.";
                 }
               });
             }
           })
           .catch((error) => {
             status.innerHTML =
-              "Parece que hay un problema para enviar tu mensaje, por favor vuelve a intentarlo.";
+              "There seems to be a problem sending your message, please try again.";
           });
       }
       form.addEventListener("submit", handleSubmit);
