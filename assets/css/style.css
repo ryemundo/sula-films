@@ -3601,6 +3601,10 @@ textarea.form-control {
   }
 }
 
+/* Change language button*/
+.language-change {
+  color: white !important;
+}
 /* Medium and large Screens */
 @media only screen and (min-width: 992px) {
   .navbar .dropdown-menu {
