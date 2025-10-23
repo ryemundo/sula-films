@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Sula Films - Casa productora" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/images/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/images/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <title>SULA FILMS - Servicios</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700%7cRoboto:400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/libraries.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076f1c109.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!----- HEADER ------>
+      <header class="header">
+        <nav class="navbar navbar-expand-lg">
+          <!--Branding-->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assets/images/sula-logo-white.svg"
+              class="logo-light milogo"
+              alt="logo"
+            />
+            <img
+              src="assets/images/sula-logo-white.svg"
+              class="logo-dark milogo"
+              alt="logo"
+            />
+          </a>
+          <!--Navigation-->
+          <div class="container">
+            <button class="navbar-toggler" type="button">
+              <span class="menu-lines"><span></span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavigation">
+              <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__item-link">Inicio</a>
+                </li>
+                <!-- /.nav-item -->
+                <li class="nav__item">
+                  <a href="nosotros.html" class="nav__item-link">Nosotros</a>
+                </li>
+                <!-- /.nav-item -->
+                <li class="nav__item">
+                  <a href="servicios.html" class="nav__item-link">Servicios</a>
+                </li>
+                <!-- /.nav-item -->
+                <li class="nav__item">
+                  <a href="producciones.html" class="nav__item-link"
+                    >Producciones</a
+                  >
+                </li>
+                <!-- /.nav-item -->
+                <li class="nav__item">
+                  <a href="noticias.html" class="nav__item-link">Noticias</a>
+                </li>
+                <!-- /.nav-item -->
+                <li class="nav__item">
+                  <a href="sula_edu.html" class="nav__item-link">Sula Edu</a>
+                </li>
+                <!-- /.nav-item -->
+                <li class="nav__item">
+                  <a href="contacto.html" class="nav__item-link">Contacto</a>
+                </li>
+                <!-- /.nav-item -->
+                <li class="nav__item">
+                  <a href="tienda.html" class="nav__item-link">Tienda</a>
+                </li>
+                <!-- /.nav-item -->
+                <!--Social icons-->
+                <ul class="social__icons_h" style="list-style: none">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/sulaentertainment"
+                      target="_blank"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/sula.entertainment/"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://x.com/SulaEntmnt" target="_blank"
+                      ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
+                  </li>
+                </ul>
+                <!-- /.social-icons -->
+              </ul>
+              <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
+        </nav>
+        <!-- /.navabr -->
+      </header>
+      <!-- /.Header -->
+
+      <!-- ========================= 
+        Contact layout 2
+    =========================  -->
+      <section
+        class="contact-layout2 bg-theme text-center arbol-contacto d-flex align-items-center justify-content-center"
+      >
+        <div class="contact-panel blck">
+          <h5 class="contact-panel__title">Escríbenos</h5>
+          <p class="contact-panel__desc">
+            ¿Quieres hacer un proyecto con nosotros?
+          </p>
+          <form
+            id="my-form"
+            action="https://formspree.io/f/mldpywkz"
+            method="POST"
+          >
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Nombre"
+                    name="name"
+                  />
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    name="email"
+                  />
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="form-group mb-30">
+                  <textarea
+                    class="form-control"
+                    placeholder="Mensaje"
+                    name="message"
+                  ></textarea>
+                </div>
+              </div>
+              <!-- /.col-lg-12 -->
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <button
+                  type="submit"
+                  class="btn btn__primary"
+                  id="my-form-button"
+                >
+                  <span>Enviar</span>
+                </button>
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <p id="my-form-status"></p>
+          </form>
+          <br />
+          <div class="contact-box__content">
+            <h4 class="contact-box__title" style="color: #fff">México</h4>
+            <ul class="contact-box__list list-unstyled mb-0">
+              <li>Condesa CDMX</li>
+              <li>Tel.: 55 5286 6144</li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.contact-panel -->
+
+        <div id="map"></div>
+      </section>
+      <!-- /.Contact layout 2 -->
+
+      <!----- FOOTER ------>
+      <footer class="footer">
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                <img
+                  src="assets/images/sula-logo-arbol.png"
+                  alt="Arbol sula icono"
+                />
+                <div class="footer__copyright">
+                  <p class="fz-13 mb-20 color-white">
+                    Copyright © Sula Films.
+                    <a href="http://sulafilms.com" target="_blank"
+                      >sulafilms.com</a
+                    >
+                  </p>
+                  <p>
+                    <a href="aviso-privacidad.html">Aviso de Privacidad</a>
+                  </p>
+                  <ul class="social__icons">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/sulaentertainment"
+                        target="_blank"
+                        ><i class="fa-brands fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/sula.entertainment/"
+                        target="_blank"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/SulaEntmnt" target="_blank"
+                        ><i class="fa-brands fa-x-twitter"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <!-- /.social-icons -->
+                </div>
+                <!-- /.Footer-copyright -->
+              </div>
+              <!-- /.col-lg-9 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.Footer-bottom -->
+      </footer>
+      <!-- /.Footer -->
+      <button id="scrollTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+    <!-- /.wrapper -->
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      var form = document.getElementById("my-form");
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: "application/json",
+          },
+        })
+          .then((response) => {
+            if (response.ok) {
+              status.innerHTML = "¡Gracias por tu mensaje!";
+              form.reset();
+            } else {
+              response.json().then((data) => {
+                if (Object.hasOwn(data, "errors")) {
+                  status.innerHTML = data["errors"]
+                    .map((error) => error["message"])
+                    .join(", ");
+                } else {
+                  status.innerHTML =
+                    "Parece que hay un problema para enviar tu mensaje, por favor vuelve a intentarlo.";
+                }
+              });
+            }
+          })
+          .catch((error) => {
+            status.innerHTML =
+              "Parece que hay un problema para enviar tu mensaje, por favor vuelve a intentarlo.";
+          });
+      }
+      form.addEventListener("submit", handleSubmit);
+    </script>
+  </body>
+</html>
